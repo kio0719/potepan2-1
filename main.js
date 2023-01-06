@@ -13,7 +13,6 @@ $(document).ready(function(){
     $('#stop').attr('disabled','true');
     $('#reset').attr('disabled','true');
 
-
     $('#start').click(function(){
         timerId = setInterval(start,100);
         $('#start').attr('disabled','true');
@@ -43,7 +42,6 @@ $(document).ready(function(){
         $('#stop').attr('disabled','true');
         $('#reset').attr('disabled','true');
     });
-
 
     function start(){
         time++;
