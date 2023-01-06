@@ -29,6 +29,7 @@ $(document).ready(function(){
     });
     
     $('#reset').click(function(){
+        clearInterval(timerId);
         time = 0;
         milSec = 0;
         sec = 0;
